@@ -31,7 +31,7 @@ const Products = () => {
         setLoading(true);
         setError(false);
         //Fetch products data with a signal to enable request cancellation
-        const response = await axios.get<productType[]>("http://localhost:8000/products", {
+        const response = await axios.get<productType[]>("https://virtualmartserver.onrender.com/products", {
           signal: abortControllerRef.current?.signal,
         });
         //Set the products data from the api response  
