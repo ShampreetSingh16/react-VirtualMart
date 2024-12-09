@@ -16,7 +16,7 @@ const { sendRegistrationEmail } = require('./registerEmail');
 
 //Middleware for enabling CORS, allowing credentials, and specifying frontend origin
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://virtualmartclient.onrender.com",
   methods : ["POST","GET"],
   credentials: true
 }));
