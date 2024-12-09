@@ -33,7 +33,7 @@ const CheckoutForm = ({ amount }: CheckoutType) => {
   const handleSuccess = async (paymentIntentId: string ,  items: any, userID: string) => {
    
     try {
-      const response = await axios.post("http://localhost:8000/orders", {
+      const response = await axios.post("https://virtualmartserver.onrender.com/orders", {
         paymentIntentId,
         items,
         userID
