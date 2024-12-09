@@ -104,7 +104,7 @@ export const authSlice = createSlice({
             state.error = null;
         })
         // Handle registration
-        builder.addCase(register.fulfilled, (state, action) => {
+        builder.addCase(register.fulfilled, (state, _action) => {
             state.error = null;
         })
         builder.addCase(register.rejected, (state, action) => {
