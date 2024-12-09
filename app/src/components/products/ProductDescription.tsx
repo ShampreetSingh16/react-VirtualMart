@@ -23,7 +23,7 @@ const ProductDescription = () => {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const response = await axios.get(`http://localhost:8000/products/${id}`);
+                const response = await axios.get(`https://virtualmartserver.onrender.com/products/${id}`);
                 setProduct(response.data);
             } catch (error) {
                 setError(true);
