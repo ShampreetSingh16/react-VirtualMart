@@ -30,7 +30,7 @@ type LoginResponse = {
 
 export const login = createAsyncThunk<LoginResponse, LoginCredentials>("auth/login", async (credentials, { rejectWithValue }) => {
     try {
-        const response = await axios.post("http://localhost:8000/login", credentials, { withCredentials: true });
+        const response = await axios.post("https://virtualmartserver.onrender.com/login", credentials, { withCredentials: true });
         return response.data;
     } catch (error) {
         if (axios.isAxiosError(error) && error.response) {
@@ -43,7 +43,7 @@ export const login = createAsyncThunk<LoginResponse, LoginCredentials>("auth/log
 
 export const register = createAsyncThunk("auth/register", async (credentials:
     { firstname: string; lastname: string; email: string; password: string }) => {
-    const response = await axios.post("http://localhost:8000/register", credentials, { withCredentials: true });
+    const response = await axios.post("https://virtualmartserver.onrender.com/register", credentials, { withCredentials: true });
     return response.data;
 });
 
@@ -53,7 +53,7 @@ export const logout = createAsyncThunk("auth/logout", async () => {
 });
 
 export const checkAuth = createAsyncThunk("auth/checkAuth", async () => {
-    const response = await axios.get("http://localhost:8000/authenticate", { withCredentials: true });
+    const response = await axios.get("https://virtualmartserver.onrender.com/authenticate", { withCredentials: true });
     return response.data;
 });
 
