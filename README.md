@@ -33,27 +33,6 @@ The backend is built with Express and MongoDB for data storage. For security, it
 - **Add to favourites:** Add to favourites feature can be added for logged in users.
 - **Improved CSS Design:** Overall, the design and responsiveness of the application can be improved to provide a more modern look and seamless user experience.
 - **Admin Panel:** An admin panel can be created to manage the products , users and orders.
-  
-## Screenshots
-
-Here are some screenshots of the application: 
-
-
-![Home Page](https://github.com/user-attachments/assets/074e8fbf-3206-4119-bea9-a9b2f4a1ac19)
-
-![Categories showcase on home page](https://github.com/user-attachments/assets/3ad11e23-bbcf-454c-8771-dcfe4ef8ffd7)
-
-![Product Carousel on home page](https://github.com/user-attachments/assets/30e8b6be-1158-4619-a1af-3d098f693171)
-
-
-![Product Listing along with filters](https://github.com/user-attachments/assets/f0b23a65-7cf6-4c54-9a74-cc86cea308d8)
-
-![Product Description](https://github.com/user-attachments/assets/752e8884-0711-4e07-91e7-77eaf9ca7f2b)
-
-![Cart](https://github.com/user-attachments/assets/d938f1e9-9291-458d-b9bd-396e99d57dcc)
-
-![Checkout](https://github.com/user-attachments/assets/5edc8638-0022-4ac5-9ac7-491cc2b153d3)
-
 
 ## Deployed Link
 - **Frontend:**
