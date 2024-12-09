@@ -20,7 +20,7 @@ const PopularProducts = () => {
       try {
         setLoading(true);
         setError(false);
-        const response = await axios.get("http://localhost:8000/products?isPopular=true");
+        const response = await axios.get("https://virtualmartserver.onrender.com/products?isPopular=true");
         setProducts(response?.data || []);
       } catch (err) {
         setError(true);
