@@ -23,11 +23,11 @@ const Checkout = () => {
           return;
         }
         if (!stripePromise) {
-          const { data: config } = await axios.get("http://localhost:8000/config");
+          const { data: config } = await axios.get("https://virtualmartserver.onrender.com/config");
           setStripePromise(loadStripe(config.key));
         }
         if (amountToPay > 0 && !clientSecret) {
-          const { data } = await axios.post("http://localhost:8000/create-payment-intent",
+          const { data } = await axios.post("https://virtualmartserver.onrender.com/create-payment-intent",
             { amount: amountToPay * 100 },
             { withCredentials: true }
           );
