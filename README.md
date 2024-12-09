@@ -35,5 +35,5 @@ The backend is built with Express and MongoDB for data storage. For security, it
 - **Admin Panel:** An admin panel can be created to manage the products , users and orders.
 
 ## Deployed Link
-- **Frontend:**
-- **Backend:**
+- **Frontend:** https://virtualmartclient.onrender.com
+- **Backend:** https://virtualmartserver.onrender.com
