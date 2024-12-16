@@ -23,7 +23,7 @@ const brandPartners2 = [
 
 const BrandPartner = () => {
     return (
-        <div className="p-12 mt-6 sm:mt-8 md:mt-4 sm:mb-28 md:mb-20 mb-16 w-full">
+        <div className="p-20 mt-6 sm:mt-8 md:mt-4 sm:mb-28 md:mb-20 mb-16 w-full">
             <h1 className="w-max mx-auto text-3xl md:text-3xl sm:text-2xl font-normal mb-6">
                 Brands You Love, Products You Trust!
             </h1>
