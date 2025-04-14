@@ -26,7 +26,6 @@ The backend is built with Express and MongoDB for data storage. For security, it
 - **Hosting:** Render
   
 ## Future Enhancements
-- **Safari Third-Party Cookies Issue:** Currently, cookies are not being set in Safari brower due to its strict third-party cookies security settings.
 - **User Profile:** User profile can be added where user can see their previous placed orders and manage their information.
 - **Password Reset:** To allow users to recover or change their passwords securely.
 - **Order confimation Email :** Users placed order information can be fetched form the database and a confimation email along with those details can be sent.  
